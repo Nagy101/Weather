@@ -1,0 +1,143 @@
+.nav-section {
+    background-color: #1E202B;
+}
+
+.text h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bord {
+    border: #009AD8 solid 2px;
+    padding: 5px 30px;
+    border-radius: 40%;
+    color: #009AD8;
+}
+
+.bord2:hover {
+    border: #009AD8 solid 2px;
+    border-radius: 40%;
+    color: #009AD8;
+}
+
+small {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.backgr {
+    background-color: #1E202B;
+    padding-bottom: 10rem;
+}
+
+.main {
+    width: 100%;
+    background-image: url(../image/banner.png);
+    /* height: 50vh; */
+}
+
+.form-control {
+    background-color: #1E202B;
+    border: none;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #75755f4b;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    background-color: #1E202B;
+    box-shadow: none;
+    color: #fff;
+}
+
+.find {
+    position: absolute;
+    top: 0;
+    right: 0.5%;
+    margin-top: 3.4rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.find.btn {
+    color: #fff;
+    background-color: #009AD8;
+}
+
+.cardOne {
+    width: 34%;
+    background-color: #323544;
+}
+
+.cardContent {
+    color: #fff;
+}
+
+.cardContent h3 {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.cardContent p {
+    font-size: 14px;
+    color: rgb(0, 154, 216);
+}
+
+.nameDay {
+    background-color: #2D303D;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.colorText {
+    color: rgb(191, 193, 200);
+}
+
+.cardtwo {
+    width: 34%;
+    background-color: #262936;
+}
+
+.cardtwo .nameDay {
+    background-color: #222530;
+}
+
+footer {
+    background-color: #262936;
+}
+
+.subBtn {
+    top: 0;
+    right: 50%;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.subBtn.btn {
+    color: #fff;
+    background-color: #009AD8;
+}
+
+.icn i {
+    padding-top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    color: #009AD8;
+    transition: all 0.5s;
+}
+
+.icn i:hover {
+    color: #fff;
+    background-color: #009AD8;
+}

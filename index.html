@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- ==========Fontawesom link ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ==========BootStrap link ========== -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!-- ==========CSS link ========== -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="nav-section">
+      <div
+        class="container d-flex justify-content-between align-items-center py-4"
+      >
+        <div class="left-container py-1">
+          <div class="img-icon d-flex px-2">
+            <img
+              src="./image/logo@2x.png"
+              alt=""
+              class="mx-3"
+              width="64"
+              height="38"
+            />
+            <div class="text text-white">
+              <h1>Weather</h1>
+              <small class="text-white-50">tagline goes here</small>
+            </div>
+          </div>
+        </div>
+        <div class="right-contrner position-relative">
+          <a class="px-4 bord" href="#">Home</a>
+          <a class="px-4 bord2" href="#">News</a>
+          <a class="px-4 bord2" href="#">Live cameras</a>
+          <a class="px-4 bord2" href="#">Photos</a>
+          <a class="px-4 bord2" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="backgr">
+      <div class="main">
+        <div class="container">
+          <div class="py-5 position-relative">
+            <input
+              id="inputOne"
+              type="text"
+              class="form-control rounded-5 py-3"
+              placeholder="Find Your Location..."
+            />
+            <button id="btnOne" class="find btn btn-info rounded-5">
+              Find
+            </button>
+          </div>
+          <div class="cards d-flex justify-content-between"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="py-4 container position-relative">
+        <div class="d-flex">
+          <input
+            type="text"
+            class="form-control w-50 rounded-5 py-3"
+            placeholder="
+Enter your email to subscribe...
+"
+          />
+          <button class="btn btn-info position-absolute subBtn rounded-5">
+            Subscribe
+          </button>
+          <div class="icn fs-4 mx-auto">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+        </div>
+        <p class="colorText py-3">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- ==========JS link ========== -->
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
